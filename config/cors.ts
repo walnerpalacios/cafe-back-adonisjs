@@ -8,7 +8,7 @@ import { defineConfig } from '@adonisjs/cors'
  */
 const corsConfig = defineConfig({
   enabled: true,
-  origin: ['https://cafe-front-vue-nuxt-b1pk.vercel.app/'],
+  origin: ['https://cafe-front-vue-nuxt-b1pk.vercel.app'],
   methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
   headers: true,
   exposeHeaders: [],
